@@ -16,21 +16,26 @@ img {
 }
  body {
         font-family: "Roboto", sans-serif;
+        color: #434455;
     background: #ffffff;
  }  
-
+/* Page header */
 .logo {
         font-family: "Raleway", sans-serif;
             font-weight: 700;
             font-size: 18px;
-            line-height: 1.16667;
+            line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: #2e2f42;
 }
 
-.text-logo {
+.logo-header {
     color: #4d5ae5;
+}
+
+.logo-span {
+    color: #2e2f42;
 }
 
 .menu-link {
@@ -45,6 +50,12 @@ img {
     color: #404bbf;
 }
 
+/* Address */
+
+.contacts {
+    font-style: normal
+}
+
 .class-link-contacts {
         font-weight: 400;
         font-size: 16px;
@@ -56,12 +67,17 @@ img {
 .class-link-contacts:hover,.class-link-contacts:focus {
     color: #404bbf;
 }
+/* Hero image */
+
+.hero-image {
+    background-color: #2e2f42;
+}
 
 .title {
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -73,8 +89,14 @@ img {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
+        background-color: #4D5AE5;
 }
 
+.btn:hover,.btn:focus {
+    background-color: #404BBF;
+}
+
+/* Our benefits */
 .benefits-title {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -93,15 +115,25 @@ img {
         color: #434455;
 }
 
+/* Our Tqeam */
+
+.our-team {
+    background: #f4f4fd;
+}
+
 .title-team {
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+}
+
+.list-team {
+    background-color: #FFFFFF;
 }
 
 .avatar-name {
@@ -129,7 +161,7 @@ img {
 font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -145,18 +177,28 @@ font-family: "Roboto", sans-serif;
 
 /* --------- Footer --------- */
 
-.logo-footer {
+.container-footer {
+    background: #2e2f42;
+}
+
+.logo-web {
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
-.footer-logo:hover,.footer-logo:focus {
-        color: #4d5ae5;
+.logo-studio {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
 }
 
 .text-footer {
@@ -167,3 +209,4 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+/* --------- /Footer --------- */
