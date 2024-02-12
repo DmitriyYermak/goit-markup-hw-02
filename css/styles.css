@@ -123,6 +123,10 @@ img {
     background: #f4f4fd;
 }
 
+.list-team {
+    background-color: #FFFFFF;
+}
+
 .title-team {
     font-family: "Roboto", sans-serif;
         font-weight: 700;
